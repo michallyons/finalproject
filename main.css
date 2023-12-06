@@ -60,5 +60,9 @@ p.spacer {margin-bottom: calc(5px + 5vh);}
     border: 2px solid #043a81; 
     font-variant: small-caps;
     text-align: center;}
+#foot {
+    color: #043a81;
+    text-decoration: none;}
+#foot:hover {color: #043a81;}
 #sitename {font-size: calc(3px + 3vw);}
 #sitetag {font-size: calc(1.5px + 1.7vw);}
