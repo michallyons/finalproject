@@ -2,6 +2,10 @@
 a.navlink {
     color: #043a81;
     text-decoration: none;}
+a.sitelink {
+    color:#043a81;
+    font-size: calc(1px + 0.7vw);
+    line-height: calc(5px + 1vh);}
 a.sitelink:visited {color:#0f93e3;}
 a:hover {color:#0f93e3;}
 audio {display: block; 
@@ -31,6 +35,8 @@ h2 {font-size: calc(0.1px + 1.7vw);}
 header {
     line-height: calc(1px + 1vh); 
     padding: 2% 5%;}
+iframe {height: 600px;
+    width: 100%;}
 img.center {display: block; 
     margin: auto; 
     max-width: 1000px;
@@ -39,12 +45,6 @@ img.center {display: block;
 li.navi {
     display: inline; 
     padding: 1.5%;}
-li.sitelink {
-    color:#043a81;
-    font-size: calc(1px + 0.7vw);
-    line-height: calc(5px + 1vh);
-    list-style-type: none;
-    text-align: center;}
 main {
     background-color: #ddedfd;
     border: 2px solid #043a81;
@@ -56,6 +56,7 @@ nav {
     text-align: center;}
 span.span-bold {font-weight: bold;}
 span.span-italic {font-style: italic;}
+p.center {text-align: center;}
 p.samples {
     text-align: center;
     text-decoration: underline;}
@@ -66,7 +67,8 @@ p.spacer {margin-bottom: calc(5px + 5vh);}
 .flex-space {align-self: auto;
     border: 2px dotted #043a81;
     margin: 2%;
-    padding: 2%;}
+    padding: 2%;
+    width:100%;}
 .top {
     background-color: #ddedfd;
     border: 2px solid #043a81; 
@@ -74,8 +76,11 @@ p.spacer {margin-bottom: calc(5px + 5vh);}
     text-align: center;}
 #flex-container {
     display: flex;
+    align-items: baseline;
     justify-content: center;
-    align-items: baseline;}
+    margin:auto; 
+    padding:auto; 
+    width:100%;}
 #flex-item2 {align-self: auto;}
 #foot {
     color: #043a81;
